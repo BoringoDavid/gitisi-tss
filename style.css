@@ -706,7 +706,8 @@ textarea:focus {
 .section-title h3 {
     font-size: 30px;
     line-height: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    margin-top: 35px;
     text-transform: uppercase
 }
 
