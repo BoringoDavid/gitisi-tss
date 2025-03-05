@@ -2890,7 +2890,20 @@ a.meanmenu-reveal i {
 
 /* additional css for  entire page*/
 .attitudes-listing{
-    color:white;
+    
     text-align: center;
     justify-items: left;
+}
+
+.sin-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content horizontally */
+}
+
+.attitudes-listing {
+    text-align: start; /* Aligns text to the start */
+    list-style: none; /* Removes default bullets */
+    padding: 0;/* Removes extra padding */
+    color:white; 
 }
