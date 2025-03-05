@@ -2887,3 +2887,10 @@ a.meanmenu-reveal i {
     border: 1px solid transparent;
     border-radius: 5px;
 }
+
+/* additional css for  entire page*/
+.attitudes-listing{
+    color:white;
+    text-align: center;
+    justify-items: left;
+}
