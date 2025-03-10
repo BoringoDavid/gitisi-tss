@@ -2907,3 +2907,37 @@ a.meanmenu-reveal i {
     padding: 0;/* Removes extra padding */
     color:white; 
 }
+
+
+/* 3 columuns  for top section of footer area */
+
+/* General styling */
+.row-footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Space between columns */
+    padding: 20px 0;
+    margin-left: 15%;
+  }
+  
+  /* Each footer widget (column) */
+  .footer-widget {
+    flex: 1 1 calc(33.33% - 20px); /* 3 columns */
+    min-width: 250px; /* Minimum width to ensure good look on small screens */
+    box-sizing: border-box;
+  }
+
+  /* Responsive Behavior */
+  @media (max-width: 991px) {
+    .footer-widget {
+      flex: 1 1 calc(50% - 20px); /* 2 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer-widget {
+      flex: 1 1 100%; /* Stack on small screens */
+    }
+  }
+  
