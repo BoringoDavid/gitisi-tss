@@ -672,7 +672,7 @@ textarea:focus {
     height: 40px;
     line-height: 24px;
     padding: 6px 30px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .btn:hover {
@@ -708,7 +708,7 @@ textarea:focus {
     line-height: 22px;
     margin-bottom: 5px;
     margin-top: 35px;
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 .section-title p {
@@ -732,7 +732,7 @@ textarea:focus {
     font-size: 30px;
     line-height: 22px;
     margin-bottom: 15px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /*-- Breadcrumb --*/
@@ -769,7 +769,7 @@ textarea:focus {
     color: #ffffff;
     font-size: 12px;
     line-height: 12px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .breadcrumb a:hover {
@@ -1418,7 +1418,7 @@ a.meanmenu-reveal i {
     height: 44px;
     line-height: 24px;
     padding: 8px 30px;
-    text-transform: uppercase;
+     text-transform: uppercase;
 }
 
 .hero-content .btn:hover {
@@ -1524,7 +1524,7 @@ a.meanmenu-reveal i {
     font-size: 18px;
     font-weight: 500;
     line-height: 13px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .single-teacher .content h5 {
@@ -1866,7 +1866,7 @@ a.meanmenu-reveal i {
     font-size: 16px;
     font-weight: 600;
     margin-top: 3px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
 .event-item h3 {
@@ -1934,7 +1934,7 @@ a.meanmenu-reveal i {
     font-size: 16px;
     font-weight: 600;
     margin-top: 3px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
 }
 
 .single-event-details .content {}
@@ -2217,7 +2217,7 @@ a.meanmenu-reveal i {
     font-weight: 700;
     line-height: 14px;
     margin-bottom: 30px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /*-- Contact Info --*/
@@ -2343,7 +2343,7 @@ a.meanmenu-reveal i {
     font-weight: 800;
     line-height: 13px;
     margin-bottom: 30px;
-    text-transform: uppercase;
+   text-transform: uppercase; 
 }
 
 /*-- Footer Widget Link & Address --*/
