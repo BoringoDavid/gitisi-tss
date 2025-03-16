@@ -2892,7 +2892,7 @@ a.meanmenu-reveal i {
 .attitudes-listing{
     
     text-align: center;
-    justify-items: left;
+    justify-items: center;
 }
 
 .sin-testimonial {
@@ -2927,6 +2927,34 @@ a.meanmenu-reveal i {
     min-width: 250px; /* Minimum width to ensure good look on small screens */
     box-sizing: border-box;
   }
+
+  /* core skills */
+  .coreskills{
+    margin-top:20px;
+  }
+
+
+  /* form successful or failing css */
+  /* Success and Error Message Styling */
+#success-message, 
+#error-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none; /* Initially hidden */
+}
+
+#success-message {
+    background-color: #e6ffed;
+    color: #027a48;
+}
+
+#error-message {
+    background-color: #ffe6e6;
+    color: #d32f2f;
+}
+
 
   /* Responsive Behavior */
   @media (max-width: 991px) {
