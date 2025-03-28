@@ -2918,7 +2918,7 @@ a.meanmenu-reveal i {
     justify-content: space-between;
     gap: 20px; /* Space between columns */
     padding: 20px 0;
-    margin-left: 15%;
+    margin-left: 5%;
   }
   
   /* Each footer widget (column) */
@@ -2953,6 +2953,41 @@ a.meanmenu-reveal i {
 #error-message {
     background-color: #ffe6e6;
     color: #d32f2f;
+}
+
+
+/* styling teachers grid */
+.teacher-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff;
+}
+
+.single-teacher {
+    text-align: center;
+    background: #fff;
+    padding: 5px;
+}
+
+.single-teacher img {
+    width: 100%;
+    height: auto;
+    padding:5px;
+}
+/* Responsive Design */
+@media (max-width: 992px) {
+    .teacher-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .teacher-grid {
+        grid-template-columns: repeat(1, 1fr); /* 1 column on mobile */
+    }
 }
 
 
